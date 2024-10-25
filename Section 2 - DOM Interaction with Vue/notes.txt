@@ -1,2 +1,9 @@
 New script path
 <script src="https://unpkg.com/vue@3.4.9/dist/vue.global.js" defer></script>
+
+Take aways:
+1. The data is a keyword and will not change.
+2. The return value is a dictionary object that can have any key and value like string, array, bool e.t.can
+3. These keys can be used in vue controlled areas in html. Like here it is section in html. It cannot be
+used anywhere else.
+4. This is called interpolation and data binding.
