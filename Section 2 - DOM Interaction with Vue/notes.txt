@@ -7,3 +7,9 @@ Take aways:
 3. These keys can be used in vue controlled areas in html. Like here it is section in html. It cannot be
 used anywhere else.
 4. This is called interpolation and data binding.
+
+
+5. The values from the vue is only available between html tags.
+for e.g <p> Learn more <a href="{{ vueLink }}">about Vue</a>.</p> it will return error. 
+for dynamically changing attribute value use v-bind
+6. The correct way is <p> Learn more <a v-bind:href="vueLink">about Vue</a>.</p>
