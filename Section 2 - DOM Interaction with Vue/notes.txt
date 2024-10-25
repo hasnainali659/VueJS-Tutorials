@@ -13,3 +13,7 @@ used anywhere else.
 for e.g <p> Learn more <a href="{{ vueLink }}">about Vue</a>.</p> it will return error. 
 for dynamically changing attribute value use v-bind
 6. The correct way is <p> Learn more <a v-bind:href="vueLink">about Vue</a>.</p>
+
+7. <p>{{ outputGoal() }}</p>. We can input any js code in html controlled part
+in double curly braces it can be a data attribute in vue, it can be {{1+1}}, 
+{{Math.random()}}, or a Vue method anything. But it should be not to complex.
