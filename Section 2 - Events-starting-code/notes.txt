@@ -3,3 +3,4 @@
 1. Event listener v-on with attribute
 2. There should be no logic in the html code. All the logic
 should be inside java script code
+3. When page is reloaded, Vue app is restarted (not confirm)
