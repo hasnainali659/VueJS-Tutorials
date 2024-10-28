@@ -1,3 +1,10 @@
 <script src="https://unpkg.com/vue@3.4.9/dist/vue.global.js" defer></script>
 
 1. Functions are not a good solution to output some dynamic information.
+2. Data, Methods and Computed.
+3. Computed property will only recalculated when any dependency changes.
+4. Therefore for performance computed property should be used instead of methods
+to output dynamic value.
+5. Use method when some value needs to be calculated again when a page reloads.
+6. Mehtods used when some value needs to be calculated when some value on the page
+changes or when some event occurs.
