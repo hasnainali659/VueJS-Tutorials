@@ -20,3 +20,6 @@ changes or when some event occurs.
 13. Watchers (not directly used in template)
 14. Allows you to run any code in reaction to some changed data (e.g send http request etc.)
 15. Use for any non-data update you want to make.
+
+16. shorthand v-on: with @
+17. shorthand v-bind with :
