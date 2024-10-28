@@ -8,3 +8,15 @@ to output dynamic value.
 5. Use method when some value needs to be calculated again when a page reloads.
 6. Mehtods used when some value needs to be calculated when some value on the page
 changes or when some event occurs.
+
+7. Methods (Use with event binding or data binding.)
+8. Data Binding: Method is executed for every "re-render" cycle of the component.
+9. Use for events or data that really needs to be re evaluated all the time.
+
+10. Computed (Use with data binding not with event binding)
+11. Computed properties are only re-evaluated if one of their "used values" changed.
+12. Used for data that depends on other data.
+
+13. Watchers (not directly used in template)
+14. Allows you to run any code in reaction to some changed data (e.g send http request etc.)
+15. Use for any non-data update you want to make.
