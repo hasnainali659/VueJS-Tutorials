@@ -1,1 +1,7 @@
 <script src="https://unpkg.com/vue@3.4.9/dist/vue.global.js" defer></script>
+
+1. when working with vue directive like v-if, in "" we can use any
+JS code, method, computed property e.t.c.
+2. v-if="any js code"
+3. Can add && ||. Can point towards data property, computed property.
+Also add method to execute. But should return true or false value
