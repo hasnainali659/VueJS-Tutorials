@@ -6,3 +6,4 @@ JS code, method, computed property e.t.c.
 3. Can add && ||. Can point towards data property, computed property.
 Also add method to execute. But should return true or false value.
 4. v-else can be used in html tag directly after v-if.
+5. v-show hides and shows item with css. v-if completely removes it
